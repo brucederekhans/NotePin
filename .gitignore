@@ -1,0 +1,9 @@
+Win32/
+Win64/
+__astcache/
+__history/
+__recovery/
+*.cbproj.local
+*.orig
+*.stat
+*.res
