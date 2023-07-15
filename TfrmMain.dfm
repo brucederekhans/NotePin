@@ -19,6 +19,7 @@ object frmMain: TfrmMain
     Width = 400
     Height = 300
     Anchors = [akLeft, akTop, akRight, akBottom]
+    ScrollBars = ssVertical
     TabOrder = 0
   end
 end
