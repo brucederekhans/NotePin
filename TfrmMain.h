@@ -11,6 +11,7 @@
 class TfrmMain : public TForm
 {
 __published:	// IDE-managed Components
+	TMemo *mmText;
 private:	// User declarations
 public:		// User declarations
 	__fastcall TfrmMain(TComponent* Owner);

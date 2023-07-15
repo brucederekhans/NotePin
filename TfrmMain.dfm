@@ -13,4 +13,11 @@ object frmMain: TfrmMain
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object mmText: TMemo
+    Left = 0
+    Top = 0
+    Width = 400
+    Height = 300
+    TabOrder = 0
+  end
 end
