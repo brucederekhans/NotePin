@@ -18,6 +18,7 @@ object frmMain: TfrmMain
     Top = 0
     Width = 400
     Height = 300
+    Anchors = [akLeft, akTop, akRight, akBottom]
     TabOrder = 0
   end
 end
