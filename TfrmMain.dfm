@@ -21,5 +21,6 @@ object frmMain: TfrmMain
     Anchors = [akLeft, akTop, akRight, akBottom]
     ScrollBars = ssVertical
     TabOrder = 0
+    WantTabs = True
   end
 end
