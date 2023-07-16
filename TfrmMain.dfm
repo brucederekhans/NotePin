@@ -19,6 +19,12 @@ object frmMain: TfrmMain
     Width = 400
     Height = 300
     Anchors = [akLeft, akTop, akRight, akBottom]
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
     ScrollBars = ssVertical
     TabOrder = 0
     WantTabs = True
