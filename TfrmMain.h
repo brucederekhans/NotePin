@@ -12,6 +12,7 @@ class TfrmMain : public TForm
 {
 __published:	// IDE-managed Components
 	TMemo *mmText;
+	void __fastcall FormCloseQuery(TObject *Sender, bool &CanClose);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TfrmMain(TComponent* Owner);

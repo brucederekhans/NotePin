@@ -15,3 +15,12 @@ __fastcall TfrmMain::TfrmMain(TComponent* Owner)
 	SetWindowPos(this->Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
 }
 //---------------------------------------------------------------------------
+void __fastcall TfrmMain::FormCloseQuery(TObject *Sender, bool &CanClose)
+{
+	if(!(this->mmText->Lines->Text.IsEmpty()))
+	{
+		CanClose = (MessageBox(this->Handle, String("文本框中存在文本，是否确认关闭？").w_str(), L"提示",  MB_YESNO | MB_ICONQUESTION) == IDYES);
+	}
+}
+//---------------------------------------------------------------------------
+
